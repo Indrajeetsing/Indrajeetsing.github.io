@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Indrajeet's Portfolio</title>
+    <script src="lib/angular.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="portfolio.css">
+    <script src="portfolio.js"></script>
+</head>
+<body ng-app = "Mymodule">
+    <div class="wrap" ng-controller="myController">
+        <div class="intro" ng-if="homeVisible == true">
+            <h1 style="padding-top: 15%">Hello, I'm <span>Indrajeet Mandloi</span>.</h1>
+            <h1>I'm a Full-Stack Web Developer.</h1>
+            <!--<a href="#" class="btn btn-info btn-lg arrow-button">-->
+                <!--View my work <span class="glyphicon glyphicon-circle-arrow-right"></span>-->
+            <!--</a>-->
+
+            <button class="slide" ng-click="aboutPage();">&nbsp;</button>
+        </div>
+        <div ng-if="aboutVisible == true">
+            <nav class="navbar navbar-inverse navbar-fixed-top">
+                <div class="container-fluid">
+                    <ul class="nav navbar-nav">
+                        <li ng-click="homePage();"><a href="#">HOME</a></li>
+                        <li class="active" ng-click="aboutPage();"><a href="#">ABOUT</a></li>
+                        <li><a href="#">PORTFOLIO</a></li>
+                        <li><a href="#">CONTACT</a></li>
+                    </ul>
+                </div>
+            </nav>
+            <div class="container" style="margin-top:50px">
+                <h1>In Progress</h1>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
