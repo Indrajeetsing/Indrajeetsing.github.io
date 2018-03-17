@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9b700c1f-39c5-408c-b5e6-05138e8f6d72" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portfolio.css" afterPath="$PROJECT_DIR$/portfolio.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portfolio.html" afterPath="$PROJECT_DIR$/portfolio.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portfolio.js" afterPath="$PROJECT_DIR$/portfolio.js" />
-    </list>
+    <list default="true" id="9b700c1f-39c5-408c-b5e6-05138e8f6d72" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -136,7 +131,7 @@
   <component name="NodeModulesDirectoryManager">
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="x" value="-7" />
     <option name="y" value="22" />
     <option name="width" value="1378" />
@@ -246,15 +241,15 @@
       <workItem from="1518231012793" duration="9758000" />
       <workItem from="1520972188812" duration="611000" />
       <workItem from="1520972999991" duration="17273000" />
-      <workItem from="1521248353755" duration="11825000" />
+      <workItem from="1521248353755" duration="12416000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="107509000" />
+    <option name="totallyTimeSpent" value="108100000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="22" width="1378" height="713" extended-state="1" />
+    <frame x="-7" y="22" width="1378" height="713" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2496329" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
