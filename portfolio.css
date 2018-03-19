@@ -139,50 +139,79 @@
 .slide.left:hover:before{
     left:0;
 }
-.wrap div nav {
-    border-bottom-width: 3px;
-    border-bottom-color: #04C2C9;
+
+/*.hexagon {*/
+    /*position: relative;*/
+    /*width: 130px;*/
+    /*height: 75.06px;*/
+    /*background-color: #64C7CC;*/
+    /*margin: 37.53px 0;*/
+    /*border-top: hidden;*/
+    /*border-color: #04C2C9;*/
+    /*display: inline-block;*/
+    /*transform: rotateZ(-90deg);*/
+/*}*/
+.hexagon {
+    position: relative;
+    width: 131px;
+    height: 75.06px;
+    background-color: #64C7CC;
+    margin: 37.53px 0;
+    display: inline-block;
+    transform: rotateZ(-90deg);
 }
 
-.navbar-color{
-    background-color: #1B242F;
+.hexagon:before,
+.hexagon:after {
+    content: "";
+    position: absolute;
+    width: 0;
+    border-left: 65px solid transparent;
+    border-right: 65px solid transparent;
 }
 
-.navbar-inverse .navbar-nav > li > a{
-    color: white;
-    font-size: 15px;
-}
-.navbar-inverse .navbar-nav > .active > a,
-.navbar-inverse .navbar-nav > .active > a:hover,
-.navbar-inverse .navbar-nav > .active > a:focus{
-    color: #E31B6D;
+.hexagon:before {
+    bottom: 100%;
+    border-bottom: 37.53px solid #64C7CC;
 }
 
-.navbar-inverse .navbar-nav > li > a:hover,
-.navbar-inverse .navbar-nav > li > a:focus {
-    color: #E31B6D;
+.hexagon:after {
+    top: 100%;
+    width: 0;
+    border-top: 37.53px solid #64C7CC;
 }
-.navbar-inverse .navbar-nav > .active  {
-    color: #E31B6D;
-    /*background: #d65c14;*/
+
+.flex{
+    /*margin-left: 77px;*/
+    /*margin-right: 77px;*/
+    /*margin-top: 70px;*/
+    margin-left: auto;
+    margin-right: auto;
 }
-.navbar-inverse .navbar-nav > .open > a,
-.navbar-inverse .navbar-nav > .open > a:hover,
-.navbar-inverse .navbar-nav > .open > a:focus {
-    color: #E31B6D;
-    /*background-color: #d65c14;*/
+
+.navbar-btn{
+    color: #04C2C9;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
 .btn-default{
+    background-color: #04C2C9;
     color: white;
     border: none;
-    float: right;
-    background-color: #04C2C9;
+    float: left;
+    margin-left: 8px;
+    margin-top: 8px;
 }
+/*div .relative{*/
+    /*position:relative;*/
+/*}*/
 
-.btn-default:hover{
-    color: #1B242F;
-    border: none;
-    /*float: right;*/
-    background-color: #04C2C9;
-}
+/*div .thisDiv{*/
+    /*position:absolute;*/
+    /*left:50%;*/
+    /*transform: translateX(-50%);*/
+    /*-webkit-transform: translateX(-50%);*/
+    /*!*transform: rotateZ(270deg);*!*/
+/*}*/
+
