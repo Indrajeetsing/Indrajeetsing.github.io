@@ -5,6 +5,7 @@ var myApp = angular.module("Mymodule", []).controller("myController", function (
     $scope.aboutVisible = false;
     $scope.portfolioVisible = false;
     $scope.contactVisible = false;
+	$scope.showText = false;
 
     $scope.homePage = function () {
         $scope.navbarVisible = false;
@@ -37,5 +38,9 @@ var myApp = angular.module("Mymodule", []).controller("myController", function (
         $scope.portfolioVisible = false;
         $scope.contactVisible = true;
     }
+	
+	$scope.readMore = function(){
+		$scope.showText = true;
+	}
 
 });
