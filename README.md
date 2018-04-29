@@ -1,3 +1,3 @@
 # Portfolio
 
-Link- https://rawgit.com/Indrajeetsing/Indrajeet.github.io/master/index.html#
+Link- https://rawgit.com/Indrajeetsing/Indrajeetsing.github.io/master/index.html#
